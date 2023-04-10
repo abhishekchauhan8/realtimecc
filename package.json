@@ -16,6 +16,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "18": "^0.0.0",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.10.0",
