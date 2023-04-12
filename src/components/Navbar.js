@@ -93,7 +93,7 @@ export default function Navbar() {
   // }
   return (
     <nav id="navbar" class="navbar">
-      <RealTimeDataNavba/>
+      <RealTimeDataNavbar/>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
   );
