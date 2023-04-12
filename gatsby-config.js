@@ -25,6 +25,9 @@ module.exports = {
         display: `standalone`,
         icon: `static/assets/images/common_images/shell_logo.png`,
       },
+      flags: {
+        DEV_SSR: true,
+      },
     },
   ],
 };
