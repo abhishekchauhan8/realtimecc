@@ -4,23 +4,23 @@ import Helmet from "react-helmet";
 import { withPrefix, Link } from "gatsby";
 
 function Header() {
-  const toggleTheme = () => {
-    console.log(localStorage.getItem("lightMode"));
+  // const toggleTheme = () => {
+  //   console.log(localStorage.getItem("lightMode"));
 
-    if (localStorage.getItem("lightMode") === "on") {
-      window.localStorage.setItem("lightMode", "off");
-      document.body.classList.remove("light");
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelector(".js-theme input").checked = true;
-      });
-    } else {
-      window.localStorage.setItem("lightMode", "on");
-      document.body.classList.add("light");
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelector(".js-theme input").checked = true;
-      });
-    }
-  };
+  //   if (localStorage.getItem("lightMode") === "on") {
+  //     window.localStorage.setItem("lightMode", "off");
+  //     document.body.classList.remove("light");
+  //     document.addEventListener("DOMContentLoaded", function () {
+  //       document.querySelector(".js-theme input").checked = true;
+  //     });
+  //   } else {
+  //     window.localStorage.setItem("lightMode", "on");
+  //     document.body.classList.add("light");
+  //     document.addEventListener("DOMContentLoaded", function () {
+  //       document.querySelector(".js-theme input").checked = true;
+  //     });
+  //   }
+  // };
 
   return (
     <header id="header" class="fixed-top">
@@ -64,7 +64,7 @@ function Header() {
         <Navbar />
 
         <img
-          onClick={toggleTheme}
+          // onClick={toggleTheme}
           src="../../../../assets/images/realtimedata/team/AbhishekChauhan.jpg"
           style={{ height: 40, width: 40, borderRadius: 50 }}
         />
